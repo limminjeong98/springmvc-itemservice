@@ -52,6 +52,7 @@ edit(itemId=${item.id})}'|" type="button">상품 수정
             </button>
         </div>
     </div>
+    <h2 th:if="${param.status}" th:text="'저장 완료!'"></h2>
 </div> <!-- /container -->
 </body>
 </html>
